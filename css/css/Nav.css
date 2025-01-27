@@ -1,0 +1,83 @@
+.Nav {
+}
+.TreeIcon{
+	width:16px;
+	height:16px;
+	float:left;
+	background: no-repeat left center;
+}
+.Nav li{
+  float:left;
+  display:block;
+  position:relative;
+}
+.Nav a{
+  float:right;
+  display:block;
+  position:relative;
+  padding:2px 2px 4px 2px;
+  font-size:13px;
+  text-decoration: none;
+  text-align: left;
+}
+.Nav span{
+  float:left;
+  padding-top:3px;
+}
+.Nav li a:hover
+{
+  color:#ffffff;
+  background:#DDDDDD;
+}
+.Nav table {
+  z-index: +1;
+  width: 180px;
+  display:none;
+  margin-left:6px;
+  margin-top:2px;
+  border-collapse:collapse; 
+  position:absolute;
+  top:18px;
+  left:0;
+  background:#DDDDDD;
+}
+.Nav td {
+  width: 180px;
+}
+.Nav li table a{
+  float:none;
+}
+.Nav li:hover table a, .Nav a:hover table a {
+  float:none;
+  background:#DDDDDD;
+  color:#000;
+  overflow:hidden;
+  height: auto;
+  border-bottom:1px solid #fff;
+}
+.Nav li:hover table a:hover, .Nav a:hover table a:hover {
+  background:#565656;
+  color:#fff;
+}
+.breadcrumbs-home-class{
+	width: 16px;
+	height: 16px;
+	float: left;
+	background: url(./home_nav.gif) no-repeat left center;
+}
+.breadcrumbs-home-class-a{
+	cursor:pointer;
+	width: 16px;
+	height: 16px;
+	float: left;
+	background: url(./home_nav.gif) no-repeat left center;
+}
+#breadcrumbs-spe-main{
+	height:16px;
+}
+#breadcrumbs-spe-main-table{
+	margin-left:0px;
+}
+#breadcrumbs-spe-parent{
+	margin-left:6px;
+}
